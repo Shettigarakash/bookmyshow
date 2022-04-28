@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.button{
+    font-family: inherit;
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    letter-spacing: 1px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

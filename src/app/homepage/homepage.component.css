@@ -1,0 +1,14 @@
+/* .container{
+    display: flex;
+    background: blue;
+    justify-content: center;
+} */
+
+.carousel-cell{
+    width: 66%;
+    margin-right: 10px;
+}
+
+.carousel-cell ::before{
+    display: block;
+}
