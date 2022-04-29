@@ -1,12 +1,79 @@
-.form-control{
-    border-radius: 3px;
-    width: 600px;
-    margin-left: 20px;
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 100vw;
+    background: rgb(51, 53, 69);
 }
-.search-icon{
-    position: absolute;
-    z-index: 10;
-    right: 46%;
-    top: 22px;
-    color: blue;
+
+.left-flex{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.right-flex{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+
+.flex2{
+    height: 5%;
+    background: rgb(31, 37, 51);
+}
+.spacer{
+    flex: 1 1 auto;
+}
+a{
+    color: #ddd;
+    font-size: .8rem;
+
+}
+a:hover{
+    color: #fff;
+}
+
+.search{
+    padding-left: 1px;
+    
+}
+
+.signin-button{
+    background: rgb(248, 68, 100);
+    color: #fff;
+    
+}
+
+.location-dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   
+    color: #ccc;
+}
+
+.location-dropdown p{
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.location-dropdown p:hover{
+    color: #fff;
+    
+}
+
+.location-dropdown i{
+    font-size: 1.4rem;
+    
+}
+.location-dropdown i:hover{
+    color: #fff;
 }
