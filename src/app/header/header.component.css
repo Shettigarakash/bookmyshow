@@ -1,79 +1,94 @@
-.flex1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
-    width: 100vw;
-    background: rgb(51, 53, 69);
+.flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  width: 100vw;
+  background: rgb(51, 53, 69);
 }
 
-.left-flex{
-    display: flex;
-    align-items: center;
-    gap:30px;
+.left-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-.right-flex{
-    display: flex;
-    align-items: center;
-    gap:30px;
-}
-
-
-.flex2{
-    height: 5%;
-    background: rgb(31, 37, 51);
-}
-.spacer{
-    flex: 1 1 auto;
-}
-a{
-    color: #ddd;
-    font-size: .8rem;
-
-}
-a:hover{
-    color: #fff;
+.right-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
-.search{
-    padding-left: 1px;
-    
+.flex2 {
+  height: 5%;
+  background: rgb(31, 37, 51);
+}
+.spacer {
+  flex: 1 1 auto;
+}
+a {
+  color: #ccc;
+  font-size: 1.3rem;
+}
+a:hover {
+  color: #fff;
 }
 
-.signin-button{
-    background: rgb(248, 68, 100);
-    color: #fff;
-    
+.search {
+  padding: 1px;
 }
 
-.location-dropdown{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-   
-    color: #ccc;
+.signin-button {
+  background: rgb(248, 68, 100);
+  color: #fff;
+  font-size: 1.3rem;
 }
 
-.location-dropdown p{
-    font-size: 1rem;
-    margin-top: 10px;
-    cursor: pointer;
-    font-family: sans-serif;
-    font-size: 15px;
-    
-    
+.location-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+
+  color: #ccc;
 }
 
-.location-dropdown p:hover{
-    color: #fff;
-    
+.location-dropdown p {
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
-.location-dropdown i{
-    font-size: 1.4rem;
-    
+.location-dropdown p:hover {
+  color: #fff;
 }
-.location-dropdown i:hover{
-    color: #fff;
+
+.location-dropdown i {
+  font-size: 1.4rem;
+  
+}
+.location-dropdown i:hover {
+  color: #fff;
+}
+
+.icon {
+  color: #ccc;
+  font-size: 1.9rem;
+}
+
+.special-tag-list {
+  display: inline-block;
+  position: relative;
+  height: 110%;
+}
+
+.special-tag-list span {
+  color: red;
+  font-weight: 400;
+  font-size: 8px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -30%;
+  right: 1%;
 }

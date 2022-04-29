@@ -1,9 +1,9 @@
 .search-container{
-    height: 2.0rem;
-    width: 40rem;
+    height: 3.5rem;
+    width: 55rem;
     overflow: hidden;
     border-radius: .5rem;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -11,7 +11,7 @@
 }
 
 .icon{
-    font-size: .9rem;
+    font-size: 1.8rem;
     color: #999;
 }
 
@@ -21,9 +21,11 @@
     background: transparent;
     width: 100%;
     margin-left: 1rem;
+    font-size: 1.5rem;
 }
 
 input::placeholder{
     font-family: inherit;
-    font-size: .9rem;
+    font-size: 1.5rem;
+    color: #999;
 }

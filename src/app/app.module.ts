@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { SliderImgComponent } from './homepage/slider-img/slider-img.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MatButtonModule } from '@angular/material/button';
     MenuComponent,
     HomepageComponent,
     FooterComponent,
+    SliderImgComponent,
   ],
   imports: [
     BrowserModule,
