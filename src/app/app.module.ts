@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { SliderImgComponent } from './homepage/slider-img/slider-img.component';
+import { CardGridComponent } from './homepage/card-grid/card-grid.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SliderImgComponent } from './homepage/slider-img/slider-img.component';
     HomepageComponent,
     FooterComponent,
     SliderImgComponent,
+    CardGridComponent,
   ],
   imports: [
     BrowserModule,

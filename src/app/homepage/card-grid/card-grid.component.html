@@ -1,0 +1,30 @@
+<div class="grid-container">
+  <div class="flex">
+    <h1>Recommended Movies</h1>
+    <a href="#">See All</a>
+  </div>
+  <div class="movie-grid"  >
+    <div class="movie-grid-component" *ngFor="let i of cards"  >
+      <div class="image-container" >
+        <img
+          class="movie-poster"
+          src="{{i.image}}"
+          alt="movie-poster"
+        />
+      </div>
+      <h2>{{i.name}}</h2>
+      <p>{{i.type}}</p>
+    </div>
+    <!-- <div class="movie-grid-component">
+      <div class="image-container">
+        <img
+          class="movie-poster"
+          src="assets/images/films/beast.webp"
+          alt="movie-poster"
+        />
+      </div>
+      <h2>Beast</h2>
+      <p>Action/Comidy/Thriller</p>
+    </div> -->
+  </div>
+</div>

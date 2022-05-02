@@ -1,0 +1,48 @@
+.grid-container{
+    margin: 3rem auto;
+    max-width: 80vw;
+    height: 20rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.movie-grid-component{
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.image-container{
+    height: 90%;
+    width: 100%;
+}
+
+.movie-poster{
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+p{
+    color: #999;
+}
