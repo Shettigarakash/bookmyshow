@@ -1,1 +1,33 @@
-<p>stream works!</p>
+<div class="carousel" data-flickity='{"wrapAround": true ,"autoPlay": true}'>
+  <div class="carousel-cell">
+    <img src="assets/images/2nd slider/stream1.webp" alt="" class="w3-image" />
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/2nd slider/stream2.webp" alt="" class="w3-image" />
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/2nd slider/stream3.webp" alt="" class="w3-image" />
+  </div>
+  <div class="carousel-cell">
+    <img src="assets/images/2nd slider/stream4.webp" alt="" class="w3-image" />
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="flex">
+    <h1>Offers For You</h1>
+  </div>
+  <div class="movie-grid">
+    <div class="movie-grid-component" *ngFor="let i of offers">
+      <div class="image-container">
+        <img class="movie-poster" src="{{ i.image }}" alt="movie-poster" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid-card">
+    <div class="flex2">
+        <app-stream-card-grid></app-stream-card-grid>
+    </div>
+</div>

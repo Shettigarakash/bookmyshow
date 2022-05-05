@@ -15,6 +15,7 @@ import { SliderImgComponent } from './homepage/slider-img/slider-img.component';
 import { CardGridComponent } from './homepage/card-grid/card-grid.component';
 import { MoviesComponent } from './movies/movies.component';
 import { StreamComponent } from './stream/stream.component';
+import { StreamCardGridComponent } from './stream/stream-card-grid/stream-card-grid.component';
 // import { MoviesComponent } from './header/movies/movies.component';
 // import { StreamComponent } from './header/stream/stream.component';
 
@@ -33,6 +34,7 @@ import { StreamComponent } from './stream/stream.component';
     routingComponents,
     MoviesComponent,
     StreamComponent,
+    StreamCardGridComponent,
   ],
   imports: [
     BrowserModule,
