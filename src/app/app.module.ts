@@ -16,6 +16,8 @@ import { CardGridComponent } from './homepage/card-grid/card-grid.component';
 import { MoviesComponent } from './movies/movies.component';
 import { StreamComponent } from './stream/stream.component';
 import { StreamCardGridComponent } from './stream/stream-card-grid/stream-card-grid.component';
+import { GiftcardComponent } from './giftcard/giftcard.component';
+import { CouponsComponent } from './giftcard/coupons/coupons.component';
 // import { MoviesComponent } from './header/movies/movies.component';
 // import { StreamComponent } from './header/stream/stream.component';
 
@@ -35,6 +37,8 @@ import { StreamCardGridComponent } from './stream/stream-card-grid/stream-card-g
     MoviesComponent,
     StreamComponent,
     StreamCardGridComponent,
+    GiftcardComponent,
+    CouponsComponent,
   ],
   imports: [
     BrowserModule,
